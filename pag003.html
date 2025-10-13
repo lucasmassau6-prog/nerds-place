@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="ico/redondinho.ico" type="image/x-icon">
+  <title>Inscreva-se</title>
+  <link rel="stylesheet" href="style.css">
+ </head>
+
+    <body>
+        <header>
+              <h1> <a href="index.html">Nerd's Place</a></h1>
+              <nav>
+        <a href="index.html">Nerd's Place</a>        
+        <a href="pag002.html">Contato</a>
+        <a href="pag003.html">Inscreva-se</a>
+                </nav>
+        </header>
+    <p>Bem vindo ao site "Nerds Place", um espaço dedicado ao mundo nerd!</p>
+        <h3 style="text-align: center;">Inscreva-se para receber informações exclusivas!</h3>
+        <form action="processa.php" method="post">
+            <table>
+    <tr>
+        <td>Nome Completo:<br> <input type="text" name="nome" required></td>
+    </tr>
+    <tr>
+        <td>Data de Nascimento:<br> <input type="date" name="data_nascimento" required></td>
+    </tr>
+    <tr>
+        <td>Email:<br> <input type="email" name="email" required></td>
+    </tr>
+    <tr>
+        <td>Telefone:<br> <input type="text" name="telefone" required></td>
+    </tr>
+    <tr>
+        <td>Endereço:<br> <input type="text" name="endereco" required></td>
+    </tr>
+    <tr>
+        <td>
+            Gênero:<br>
+            <input type="radio" id="masculino" name="genero" value="Masculino" required>
+            <label for="masculino">Masculino</label>
+            <input type="radio" id="feminino" name="genero" value="Feminino">
+            <label for="feminino">Feminino</label>
+        </td>
+    </tr>
+    <tr>
+        <td style="text-align: center;">
+            <br> <input type="submit" value="Enviar">
+        </td>
+    </tr>
+</table>
+        </form>
+
+    </body>
