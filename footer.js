@@ -5,7 +5,7 @@ const facebook = "@lucas_massau";
 const instagram = "@lucas_massau";
 const linkedIn = "linkedin.com/in/lucas-massau";
 const sexo = "Masculino";
-const localPol = "Barra funda";
+const localPolo = "Higienópolis";
 
 const footerHtml = `
   <div style="text-align:center;margin-top:40px;border-top:1px solid #ccc;padding-top:10px;">
@@ -16,7 +16,7 @@ const footerHtml = `
     <p>Instagram: ${instagram}</p>
     <p>LinkedIn: ${linkedIn}</p>
     <p>Sexo: ${sexo}</p>
-    <p>Localização - pol: ${localPol}</p>
+    <p>Localização - polo: ${localPol}</p>
   </div>
 `;
 const el = document.getElementById('site-footer');
